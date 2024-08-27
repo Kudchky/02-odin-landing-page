@@ -1,0 +1,83 @@
+/*Variables*/
+:root {
+    --btn-bck-color: #3882F6;
+    --back-info-quote: #1F2937;
+    --hero-logo-: #F9FAF8;
+    --link-back: #E5E7EB;
+}
+
+/* Globales */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.header {
+    background-color: var(--back-info-quote);
+    padding-bottom: 5rem;
+}
+
+.header__container {
+    padding: 2rem 0;
+}
+
+.header__nav {
+    gap: 4rem;
+}
+
+.header__logo {
+    color: var(--hero-logo-);
+    font-size: 2.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav__link {
+    color: var(--link-back);
+    font-size: 1.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* Main Article */
+.article__container {
+    background-color: var(--back-info-quote);
+}
+
+.main__article > div {
+    flex: 1;
+}
+
+.article__title {
+    color: var(--hero-logo-);
+    font-size: 4.8rem;
+    font-weight: bolder;
+}
+
+.article__text {
+    color: var(--link-back);
+    font-size: 1.8rem;
+    font-weight: 400;
+}

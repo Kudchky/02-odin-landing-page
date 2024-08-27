@@ -16,33 +16,39 @@
     <body>
         <div class="layout">
             <header class="header">
-                <div class="header__logo">Header Logo</div>
-                <nav class="header__nav">
-                    <a class="nav__link" href="#">header link one</a>
-                    <a class="nav__link" href="#">header link two</a>
-                    <a class="nav__link" href="#">header link three</a>
-                </nav>
+                <div class="header__container container flex">
+                    <div class="header__logo">Header Logo</div>
+                    <nav class="header__nav flex">
+                        <a class="nav__link" href="#">header link one</a>
+                        <a class="nav__link" href="#">header link two</a>
+                        <a class="nav__link" href="#">header link three</a>
+                    </nav>
+                </div>
             </header>
 
             <main class="main">
-                <article class="main__article">
-                    <div class="article__info">
-                        <h1 class="article__title">This website is awesome</h1>
-                        <p class="article__text">
-                            This website has some subtext that goes here under
-                            the main title. It's a smaller font and the color is
-                            lower contrast.
-                        </p>
-                        <input
-                            class="article__btn btn"
-                            type="button"
-                            value="Sign up"
-                        />
-                    </div>
-                    <div class="article__img">
-                        <img src="" alt="" />
-                    </div>
-                </article>
+                <div class="article__container">
+                    <article class="main__article container flex">
+                        <div class="article__info">
+                            <h1 class="article__title">
+                                This website is awesome
+                            </h1>
+                            <p class="article__text">
+                                This website has some subtext that goes here
+                                under the main title. It's a smaller font and
+                                the color is lower contrast.
+                            </p>
+                            <input
+                                class="article__btn btn"
+                                type="button"
+                                value="Sign up"
+                            />
+                        </div>
+                        <div class="article__img">
+                            <img src="" alt="this is a placeholder for an image"/>
+                        </div>
+                    </article>
+                </div>
                 <!--End article-->
 
                 <section class="main__info">
