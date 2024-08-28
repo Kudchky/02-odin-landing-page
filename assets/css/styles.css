@@ -165,6 +165,7 @@ body {
     opacity: .7;
 }
 
+/*Cite*/
 .main__cite {
     background-color: var(--link-back);
     padding: 10rem 40rem;
@@ -177,4 +178,48 @@ body {
     display: block;
     text-align: right;
     font-size: 2.5rem;
+}
+
+/*Sign Up*/
+.main__sign-up {
+    background-color: var(--hero-logo-);
+    padding: 10rem 0;
+}
+
+.sign-up__container {
+    background-color: var(--btn-bck-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--hero-logo-);
+    border-radius: 1rem;
+    padding: 5rem 15rem;
+}
+
+.sign-up__title {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.sign-up__text {
+    opacity: .8;
+    font-weight: 400;
+}
+
+.sign-up__btn {
+    background-color: var(--btn-bck-color);
+    border: 3px solid var(--hero-logo-);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: var(--back-info-quote);
+    padding: 3rem 0;
+}
+
+.footer__container {
+    text-align: center;
+    color: var(--link-back);
+    font-weight: bold;
 }
