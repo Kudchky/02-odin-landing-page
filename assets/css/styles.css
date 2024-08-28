@@ -19,6 +19,7 @@ body {
 .container {
     max-width: 120rem;
     margin: 0 auto;
+    padding: 0 3rem;
 }
 
 .btn {
@@ -51,17 +52,16 @@ body {
 }
 
 .header__container {
-    padding: 2rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .header__nav {
     gap: 4rem;
 }
 
-.header__logo {
-    color: var(--hero-logo-);
-    font-size: 2.4rem;
-    font-weight: bold;
+.header__logo > img {
+    width: 10rem;
     cursor: pointer;
 }
 
@@ -98,23 +98,83 @@ body {
     color: var(--link-back);
     font-size: 1.8rem;
     font-weight: 400;
-    padding-right: 12rem;
+    padding-right: 8rem;
     margin-bottom: 2.5rem;
 }
 
 .article__img {
-    padding: 0.5rem;
-    background-color: var(--hero-logo-);
-    border-radius: 5px;
-    box-shadow: 0px 3px 16px 0px rgba(56,130,246,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
 }
 
 .article__img > img {
-    max-height: 30rem;
-    width: 100%;
+    max-width: 45rem;
     border-radius: 5px;
+    padding: 0.5rem;
+    background-color: var(--hero-logo-);
+    box-shadow: 0px 3px 16px 0px rgba(56,130,246,0.85);
 }
 
 .article__btn {
     background-color: var(--btn-bck-color);
+}
+
+/*Info*/
+.main__info {
+    background-color: var(--hero-logo-);
+    padding: 5rem 0 10rem 0;
+}
+
+.info__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info__title {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+    color: var(--back-info-quote);
+}
+
+.info__cards {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.info__card {
+    flex: 1;
+}
+
+.info__img {
+    border-radius: 1rem;
+    width: 100%;
+    max-height: 38rem;
+    padding: 0.3rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 3px 16px 0px rgba(56,130,246,0.85);
+}
+
+.info__legend {
+    font-size: 1.6rem;
+    color: var(--back-info-quote);
+    text-align: center;
+    opacity: .7;
+}
+
+.main__cite {
+    background-color: var(--link-back);
+    padding: 10rem 40rem;
+    font-size: 3.6rem;
+    font-weight: 300;
+    color: var(--back-info-quote);
+}
+
+.cite {
+    display: block;
+    text-align: right;
+    font-size: 2.5rem;
 }
